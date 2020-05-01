@@ -4,7 +4,6 @@
     <list default="true" id="56d4afe5-6d17-477b-b605-7cc845490008" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588345417092</updated>
       <workItem from="1588345420285" duration="607000" />
-      <workItem from="1588346046930" duration="5933000" />
+      <workItem from="1588346046930" duration="6478000" />
     </task>
     <servers />
   </component>

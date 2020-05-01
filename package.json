@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp default",
+    "package": "gulp zip",
     "sass": "gulp taskWrapper",
     "js": "gulp taskWrapper",
     "watch": "gulp taskWrapper",
     "default": "gulp taskWrapper",
-    "package": "gulp taskWrapper"
+    "zip": "gulp taskWrapper"
   },
   "repository": {
     "type": "git",
