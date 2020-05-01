@@ -27,7 +27,7 @@ gulp.task('watch', function(){
 
 gulp.task('default', gulp.series('sass', 'js', 'watch'));
 
-gulp.task('zip', function(){
+gulp.task('package', function(){
     return gulp.src('./dist/**')
         .pipe(zip('archive.zip'))
         .pipe(gulp.dest('./'))
