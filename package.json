@@ -1,0 +1,32 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Description",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "sass": "gulp taskWrapper",
+    "js": "gulp taskWrapper",
+    "watch": "gulp taskWrapper",
+    "default": "gulp taskWrapper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Marco Asbeck",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "gulp-npm-script-sync": "^1.1.0"
+  }
+}
