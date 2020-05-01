@@ -8,7 +8,8 @@
     "sass": "gulp taskWrapper",
     "js": "gulp taskWrapper",
     "watch": "gulp taskWrapper",
-    "default": "gulp taskWrapper"
+    "default": "gulp taskWrapper",
+    "package": "gulp taskWrapper"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "js-yaml": "^3.13.1"
   },
   "devDependencies": {
-    "gulp-npm-script-sync": "^1.1.0"
+    "gulp-npm-script-sync": "^1.1.0",
+    "gulp-zip": "^5.0.1"
   }
 }

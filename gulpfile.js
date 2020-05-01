@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sync = require('gulp-npm-script-sync');
+const zip = require('gulp-zip');
 var cssnano = require('gulp-cssnano');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
@@ -25,5 +26,11 @@ gulp.task('watch', function(){
 });
 
 gulp.task('default', gulp.series('sass', 'js', 'watch'));
+
+gulp.task('package', function(){
+    return gulp.src('./dist/**')
+        .pipe(zip('archive.zip'))
+        .pipe(gulp.dest('./'))
+});
 
 sync(gulp);
